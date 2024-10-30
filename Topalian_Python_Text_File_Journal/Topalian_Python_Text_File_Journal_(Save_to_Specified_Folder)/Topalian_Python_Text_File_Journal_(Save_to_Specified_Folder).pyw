@@ -22,7 +22,7 @@ def makeFileWithData():
     timeAmPm = now.strftime("%I:%M %p")
     timeMilitary = now.strftime("%H:%M")
     timeForTxtName = now.strftime("%I-%M-(%S) %p")
-    nameOfFile = dateString + ' ' + timeForTxtName
+    nameOfFile = dateString + ', ' + timeForTxtName
 
     # create path to text folder
     textFolder = os.path.join(os.path.dirname(__file__), 'text')
